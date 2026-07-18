@@ -11,5 +11,9 @@ export default defineConfig({
     tailwindcss(),
     
   ],
+   build: {
+    // Raises the warning threshold to 1MB
+    chunkSizeWarningLimit: 1000,
+  },
 })
 

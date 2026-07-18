@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({limit:'1000kb' , extended :true}));
 const allowed_origin = [
   "http://localhost:5173",
-  "https://meetspace-client.onrender.com" // Ensure NO trailing slash here
+  "https://meetspace-frontend.onrender.com" 
 ];
 
 app.use(

@@ -1,7 +1,8 @@
 import axios from "axios";
+import server from "../environment.js";
 
 export const authApi = axios.create({
-    baseURL: "http://localhost:8000/api/users", 
+    baseURL: `${server}/api/users`, 
     withCredentials: true, 
     headers: {
         "Content-Type": "application/json",

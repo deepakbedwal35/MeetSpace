@@ -13,7 +13,8 @@ app.use(express.json({limit:'40kb'}));
 app.use(cookieParser());
 app.use(express.urlencoded({limit:'40kb' , extended :true}));
 const allowed_origin = [
-  "http://localhost:5173" // Ensure NO trailing slash here
+  "http://localhost:5173",
+  "*" // Ensure NO trailing slash here
 ];
 
 app.use(

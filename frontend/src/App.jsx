@@ -1,5 +1,4 @@
 import { BrowserRouter as Router,Routes , Route , Navigate  } from "react-router-dom";
-
 import {Toaster} from "react-hot-toast"
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
